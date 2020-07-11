@@ -1,0 +1,160 @@
+
+body{
+    background: #E5E5E5;
+}
+/* reuseable items*/
+.line {
+    width: 180px;
+    height: auto;
+    margin-bottom: 36px;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(95, 105, 7);
+}
+/*navbar*/
+header{
+    padding-top: 57px;
+}
+nav{
+    opacity: 0.9;
+    background: #562EFF;
+}
+nav ul li {
+    padding: 0px 9px;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color: tomato!important;
+}
+.brand-img{
+    width: 54px;
+    height: 36px;
+}
+.brand-img1{
+    width: 51px;
+    height: 51px;
+}
+.dropdown-item:hover{
+    background: rgb(9, 59, 1);
+    color: wheat;
+}
+
+/* carousel */
+#carosel-slider{
+    background: #af83088c;
+}
+.carousel-item h1{
+    color: tomato;
+}
+.buy-button{
+    background: #080811;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.buy-button:hover{
+    color: #fff;
+}
+
+.carousel-img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* top player section */
+#top-player{
+    background: #999a9875;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+#top-player h6{
+    font-size: 18px;
+}
+/* top blog section */
+.top-blog img{
+    width: 190px;
+    height: 117px;
+}
+.grid-col{
+    margin-left: -35px;
+}
+.head-write{
+    text-align: justify;
+   
+}
+.written{
+    text-align: justify;
+}
+.tp-player{
+   
+    box-shadow: 1px 1px 5px 5px;
+    margin-bottom: 8px; 
+}
+.top-blog{
+    
+    box-shadow: 1px 1px 5px 5px;
+}
+
+/* top courses*/
+.course-img{
+    width: 260px;
+    height: 230px;
+}
+#top-course h2{
+    font-size: 20px;
+   
+}
+.course{
+    box-shadow: 1px 1px 5px 5px; 
+    background: #fff;
+}
+.tagline{
+    color:#ED6B4F;
+}
+
+.star .fa{
+    color: #FFC014;
+}
+.clock{
+    color: #FF4A60;
+}
+/*====Footer Section====*/
+.footer-section{
+    background: #4c2e2e;
+}
+.footer-section .short-info{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.footer-section .first-footer .short-info{
+    width: 100%;
+}
+.footer-section .payment-grid,
+.footer-section .icon-grid{
+    margin-top: 3rem;
+}
+.footer-section .payment-grid i,
+.footer-section .icon-grid i{
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+.footer-section .icon-grid  i:hover {
+    color: #cc9900;   
+}
+footer h3{
+    margin-right: 50px;
+}

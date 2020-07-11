@@ -5,10 +5,374 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeaderBoard| Mamun</title>
     <link rel="shortcut icon" href="img/mlogo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <header class="">
+            <!-- Navbar start -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+        <div class="container">
+        <a class="navbar-brand navigate" href="#"><img class="brand-img" src="img/icon/logo.png" alt=""> Idea</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto right-navigate">
+            <li class="nav-item active">
+              <a class="nav-link" data-scroll href="#carosel-slider">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll href="#top-player">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll href="#top-course">Courses</a>
+            </li>
+            
+            <li class="nav-item">
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" data-scroll href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+                        <img class="brand-img1" src="img/profile/3.png" alt="">
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Profile</a>
+                      <a class="dropdown-item" href="#">Change Password</a>
+                      <a class="dropdown-item" href="#">Your Blog</a>
+                    </div>
+                  </div>
+             
+            </li>
+          </ul>
+        </div>
+    </div>
+      </nav>
     
+      <!-- NAvbar end -->
+
+    </header>
+    <main>
+
+        <!-- Welcome slider start -->
+
+<section class="py-5 mt-4" id="carosel-slider">
+    <div class="container text-center">
+        <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="container">
+                  <div class="row align-items-center">
+                  <div class="col-md-7 col-sm-6">
+                    <h1>House</h1>
+                    <p>The best place that I feel so good</p>
+                           
+                            <button class="buy-button">Visit My Place</button>
+                  </div>
+                  <div class="col-md-5 col-auto col-sm-6 mt-2">
+                  <img src="img/mamun/m1.jpg" class="carousel-img d-block w-100" alt="...">
+                </div>
+            </div>
+            </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="container">
+                      <div class="row align-items-center">
+                          <div class="col-md-7 col-sm-6">
+                            <h1>Parki Beach</h1>
+                                
+                            <p>The best place that gives you the most special amusement</p>
+                            <h1> Cost: <span  class="price">$320</span> </h1>
+                            <button class="buy-button">Explore the place</button>
+                          </div>
+                          <div class="col-md-5 col-auto col-sm-6 mt-2">
+                            <img src="img/mamun/mamun.jpg" class="carousel-img d-block w-100" alt="...">
+                          </div>
+                      </div>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                  <div class="container">
+                      <div class="row align-items-center">
+                          <div class="col-md-7 col-sm-6">
+                              <h1>The Mohamaya Lake</h1>
+                              <p>Special place to go</p>
+                              <h1> Cost: <span  class="price">$220</span> </h1>
+                              <button class="buy-button">Explore the place</button>
+                          </div>
+                          <div class="col-md-5 col-auto col-sm-6 mt-2">
+                            <img src="img/mamun/mamunpro.jpg" class="carousel-img d-block w-100" alt="...">
+                          </div>
+                      </div>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 col-sm-6">
+                            <h1>Sitakundo</h1>
+                            <p>The best place that gives you the most special amusement</p>
+                            <h1> Cost: <span  class="price">$320</span> </h1>
+                            <button class="buy-button">Explore the place</button>
+                        </div>
+                        <div class="col-md-5 col-auto col-sm-6 mt-2">
+                          <img src="img/mamun/sitakundo.jpg" class="d-block w-100 carousel-img" alt="...">
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            </div>
+
+          </div>
+    </div>
+</section>
+
+<!-- Welcome slider end -->
+
+<!--Top player start -->
+<section class="py-5" id="top-player">
+    <div class="container tp-player">
+        <div class="row">
+            <div class="col-12">
+                <h1>Top Player</h1>
+                <h1 class="line"></h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-6 py-3 player d-flex align-items-center">
+                <img src="img/profile/1.png" alt="">
+                <h6  class="pl-3">John Smith</h6>
+            </div>
+            <div class="col-md-4 col-sm-6 py-3 player d-flex align-items-center">
+                <img src="img/profile/2.png" alt="">
+                <h6  class="pl-3">Pro Rasel</h6>
+            </div>
+            <div class="col-md-4 col-sm-6 py-3 player d-flex align-items-center">
+                <img src="img/profile/3.png" alt="">
+                <h6  class="pl-3">Abu Sufian</h6>
+            </div>
+      
+            <div class="col-md-4 col-sm-6 py-3 player d-flex align-items-center">
+                <img src="img/profile/4.png" alt="">
+                <h6  class="pl-3">Shajedul Karim</h6>
+            </div>
+            <div class="col-md-4 col-sm-6 py-3 player d-flex align-items-center">
+                <img src="img/profile/5.png" alt="">
+                <h6  class="pl-3">Maruf Ahmed</h6>
+            </div>
+            <div class="col-md-4 col-sm-6 py-3 player d-flex align-items-center">
+                <img src="img/profile/6.png" alt="">
+                <h6  class="pl-3">Mujahid</h6>
+            </div>
+        </div>
+  
+    </div>
+    
+    <div class="container py-5 top-blog">
+        <h1>Top Blog</h1>
+        <h1 class="line"></h1>
+        <div class="row py-5 text-center">
+            <div class="col-md-6 col-sm-6">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 py-4">
+                        <img src="img/mask/2.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-sm-12 py-4 grid-col">
+                        <h3 class="head-write">13 of My Favorite UI/UX Goodies</h3>
+                        <p class="written">By Danny Sapio</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 py-4">
+                        <img src="img/mask/3.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-sm-12 py-4 grid-col">
+                        <h3 class="head-write">7 typography tips for interface design</h3>
+                <p class="written">By Jeremiah Lam</p>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 py-4">
+                        <img src="img/mask/7.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-sm-12 py-4 grid-col">
+                        <h3 class="head-write">UI cheat sheet: list vs grids</h3>
+                        <p class="written">By Tess Gadd</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 py-4">
+                        <img src="img/mask/7.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-sm-12 py-4 grid-col">
+                        <h3 class="head-write">Your logo is copied</h3>
+                        <p class="written">By Ferdinand Vogler</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Top player end -->
+<!-- Top course start -->
+<section class="py-5" id="top-course">
+    <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>Lates Course</h1>
+            <h1 class="line"></h1>
+        </div>
+    </div>
+    <div class="row py-4">
+        <div class="col-md-4 col-sm-12 text-center">
+            <div class="course">  
+                <img class="course-img pt-4" src="img/mask/5.png" alt="">
+            <h2 class="pt-3">React - The Complete</h2>
+            <h2>Guide 2020</h2>
+            <p class="tagline">Guide 2020</p>
+            <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                    <p class="star ml-5">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </p>
+            </div>
+                <div class="p-2 bd-highlight">
+                    <p class="clock ml-5"><i class="fa fa-user"></i> 01:30 hr</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+            <div class="course">              
+                    <img class="course-img pt-4" src="img/mask/1.png" alt="">                        
+           <h2 class="pt-3">Powerpoint 2020</h2>
+            <h2>Master Powerpoint Cour</h2>
+            <p class="tagline">Walter Scott</p>
+   
+            <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                    <p class="star ml-5">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </p>
+            </div>
+                <div class="p-2 bd-highlight">
+                    <p class="clock ml-5"><i class="fa fa-user"></i> 01:30 hr</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+            <div class="course">
+            <img class="course-img pt-4" src="img/mask/6.png" alt="">
+            <h2 class="pt-3">The Complete JavaScript</h2>
+            <h2>Course 2020</h2>
+            <p class="tagline">Reed Krakoff.</p>
+            <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                    <p class="star ml-5">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </p>
+            </div>
+                <div class="p-2 bd-highlight">
+                    <p class="clock ml-5"><i class="fa fa-user"></i> 01:30 hr</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Top courses end -->
+</main>
+
+<!--Footer Section Start-->
+<footer class="footer-section py-5" id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4 col-sm-12 col-lg-4 first-footer">
+            <h3 class="text-light text-center">About Us</h3>
+            <img src="img/golden-divider.png" alt="" class="divider">
+            <p class="short-info">Hot Gadget is z new and expanded online sells production around the world.Hot gadget represents a truly authentic <b>Bangladeshi</b> Indian, pakistani profucts all over the world<span>&#233;</span>.<br>Hot gadget is the best Online platform in bangladesh.</p>
+        </div>
+        <div class="co-md-4 col-sm-12 col-lg-4 p-2">
+            <h3 class="text-light text-center">Office Hours</h3>
+            <img src="img/golden-divider.png" alt="" class="divider">
+            <p class="short-info"><b>Mon-Thu:</b> 7:00am-8:00pm<br><b>Fri-Sun:</b> 7:00am-10:00pm</p>
+            <hr>
+            <h4 class="text-light">Payment Gateway</h4>
+            <div class="payment-grid">
+                <i class="fa fa-cc-amex"></i>
+                <i class="fa fa-cc-visa"></i>
+                <i class="fa fa-cc-paypal"></i>
+                <i class="fa fa-cc-mastercard"></i>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-lg-4 last-footer">
+            <h3 class="text-light text-center">Our Location</h3>
+            <img src="img/golden-divider.png" alt="" class="divider">
+            <p class="short-info"><b>19th Paradise Street Sitia<br>128 Meserole Avenue</b></p>
+            <div class="icon-grid">
+                <a href="#" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+               <h6 class="text-light text-center">Copyright &copy; 2020 Design by <a href="https://web.facebook.com/mamun.uddin.niloy/" target="blank" class="text-light">Mamun</a></h6> 
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Footer Section End-->
+<!--  js file  -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 </body>
 </html>
